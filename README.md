@@ -1,5 +1,5 @@
 # Degen N Token
-This token contract program tells about the transaction of tokens by burning, adding or transferring tokens using various functions and events like mint, burn, transfer, Total_Supply, balanceOf, etc.
+This token contract program is to create a ERC20 token and deploy it on the Avalanche network for Degen Gaming along with the following functionalities that are mentioned in the project requirement.
 ## Description
 
 This program is a simple contract for creating and mint of token, providing the details of token such as its name(i.e. my_token), total_Supply, balance, getting the results accordingly. It contains three events that are Transfer(for transferring the tokens), Burn (for burning the tokens) and Mint (for adding the tokens). Then there is a constructor with two parameters that are Nikhils_Token and TotalSupply, which are getting stored in my_token and total_Supply, also the value of total_Supply get stored in balances. After that there are six functions, Total_Supply() for returning the total_Supply value, balanceOf for returning balance of account, transfer for transferring tokens, burn for burning the amount of token and then updating the current value after burning of token from account and mint function for adding the tokens and accordingly updating the total_Supply and balances.
